@@ -25,6 +25,7 @@ public class ChangeInfo extends AppCompatActivity {
         editTextPhone = (EditText) findViewById(R.id.etPhone);
         editTextAddress = (EditText) findViewById(R.id.etAddress);
     }
+    //fetch
     public void returnMainweb(View view){
         Intent intent = new Intent(ChangeInfo.this,Mainweb.class);
         //intent.setClass(Mainweb.this,Login.class);
